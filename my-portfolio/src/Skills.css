@@ -212,6 +212,7 @@
     width: 100%;
   } */
   .accordion-new {
+    height: 15rem;
     margin-bottom: 3rem;
     /* width: 20.5rem; */
   }

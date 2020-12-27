@@ -93,9 +93,9 @@ const Header = () => {
           <div className="info">
             <h1>I'm Surath Kumar Jhakal.</h1>
             <h3>
-              I'm a Beverly Hills based{" "}
-              <span>Head Instructor @CleverProgrammer</span>. Full Stack
-              Developer and Lead Instructor at Clever Programmer..
+              My next goal is to become<span> Mern Stack Developer🔥🔥</span>. I
+              love programming and enjoy doing it. I'm Really dedicated &
+              passionte toward my work ...
             </h3>
             <div className="social">
               <i className="fab fa-hackerrank"></i>

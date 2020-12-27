@@ -9,17 +9,19 @@ body {
 }
 
 .app {
-  background-image: url("./sunny-image.jpg");
-  background-size: cover;
+  /* background-image: url("./sunny-image.jpg"); */
+  /* background-size: cover; */
+  /* height: 50rem;
+  width: 100vw; */
+  background-repeat: no-repeat;
   background-position: bottom;
   transition: 0.4s ease-out;
 }
 
-.app.snow {
-  background-image: url("./snow-image.jpg");
-}
-.app.cloudy {
-  background-image: url("./cloudy-image.jpg");
+.app h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-bottom: 0.8rem;
 }
 
 main {

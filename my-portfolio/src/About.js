@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "./header-background.jpg";
+import profile_pic from "./profile_pic.jpeg";
 import "./About.css";
 
 const About = () => {
@@ -8,7 +8,7 @@ const About = () => {
       <div className="container-fluid ">
         <div className="about-row">
           <div className="image">
-            <img src={photo} />
+            <img src={profile_pic} />
           </div>
           <div className="about-info">
             <h1>About Me</h1>
