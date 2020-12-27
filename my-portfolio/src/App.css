@@ -5,6 +5,19 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
+  /* overflow-y: hidden; */
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.app {
+  background: rgb(237, 240, 243);
+}
+
+.app hr {
+  opacity: 1;
 }
 
 @media (max-width: 998px) {

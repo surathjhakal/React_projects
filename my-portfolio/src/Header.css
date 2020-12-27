@@ -1,7 +1,9 @@
 .navbar {
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   top: 0;
+  transition-timing-function: ease-in;
+  transition: all 0.3s ease-in;
 }
 
 #header {
@@ -14,6 +16,10 @@
   -webkit-background-size: cover !important;
   overflow: hidden;
   /* object-fit: contain; */
+}
+
+#current {
+  color: rgb(255, 103, 2);
 }
 
 .info {
@@ -95,6 +101,7 @@
   text-transform: uppercase;
   color: #fff;
   font-weight: bold;
+  letter-spacing: 1.5px;
 }
 
 .navbar-collapse a:hover {
@@ -154,6 +161,16 @@
   .btn button {
     visibility: visible;
   }
+  .hide {
+    visibility: hidden;
+  }
+
+  .addColor {
+    background-color: #363434;
+    left: 0;
+    height: 3.4rem;
+    text-align: center;
+  }
 }
 
 @media (max-width: 900px) {
@@ -168,6 +185,7 @@
     min-height: 370px;
     padding-top: 8px;
     margin-right: 10px;
+    visibility: visible;
   }
   .navbar button {
     margin-right: 24px;
@@ -179,9 +197,6 @@
     padding: 12px;
     font-weight: bold;
     margin-bottom: 6px;
-  }
-  .current {
-    color: rgb(255, 103, 2);
   }
   .info {
     display: flex;

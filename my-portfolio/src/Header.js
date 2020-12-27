@@ -1,16 +1,54 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
 // import photo from "./header-background.jpg";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { fab } from "@fortawesome/free-brand-svg-icons";
 const Header = () => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(false);
+  const [show, handleshow] = useState(false);
+  const [navshow, setnavshow] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY < 590 && window.scrollY > 40) {
+        setnavshow(true);
+      } else {
+        setnavshow(false);
+      }
+    });
+    return () => {
+      window.removeEventListener("scroll", () => {
+        if (window.scrollY > 590 && window.scrollY < 40) {
+          setnavshow(false);
+        } else setnavshow(true);
+      });
+    };
+  }, []);
 
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 550) {
+        handleshow(true);
+      } else {
+        handleshow(false);
+      }
+    });
+    return () => {
+      window.removeEventListener("scroll", () => {
+        if (window.scrollY < 550) {
+          handleshow(false);
+        } else handleshow(true);
+      });
+    };
+  }, []);
   return (
     <section id="header" className="d-flex align-items-center">
       <div className="container-fluid ">
         <div className="row">
-          <nav className="navbar navbar-expand-lg">
+          <nav
+            className={`navbar navbar-expand-lg ${show && "addColor"} ${
+              navshow && "hide"
+            }`}
+          >
             <button
               className="custom-toggler navbar-toggler ml-auto"
               type="button"
@@ -28,11 +66,11 @@ const Header = () => {
 
             <div
               className={`${!isNavCollapsed ? "collapse" : ""} navbar-collapse 
-              `}
+              ${show && "addColor"}`}
               id="navbarsExample09"
             >
               {}
-              <a className="nav-link current" href="/contact">
+              <a className="nav-link" id="current" href="/contact">
                 Home
               </a>
               <a className="nav-link" href="/login">

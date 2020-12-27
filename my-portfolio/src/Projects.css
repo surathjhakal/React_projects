@@ -1,0 +1,92 @@
+#projects-header {
+  background: #d4dada;
+  padding-top: 90px;
+  padding-bottom: 34px;
+  margin-top: -1rem;
+  letter-spacing: 2px;
+}
+
+.projects-row {
+  margin-top: -1rem;
+}
+
+.projects-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.new-btn {
+  background-color: #e0e4e4;
+  border-radius: 4px;
+}
+
+.card-body {
+  background-color: rgb(255, 255, 255);
+}
+
+.projects-project {
+  display: flex;
+  padding: 1rem 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin: 0 1rem;
+  /* border-radius: 1rem; */
+  /* cursor: pointer; */
+  /* transition: transform 450ms; */
+}
+
+.card:hover {
+  transform: scale(1.04);
+}
+
+.projects-row-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-row-button button {
+  z-index: 1;
+  /* padding-left: 0rem; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  height: 60px;
+  width: 60px;
+  background-color: #303030;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  margin-top: 4rem;
+  margin-bottom: -4rem;
+}
+
+.projects-row button i {
+  /* margin-top: 0px; */
+  font-size: 2rem;
+}
+
+.projects-row button:hover {
+  background-color: #11abb0;
+}
+
+@media (max-width: 900px) {
+  .projects-title {
+    font-size: 15px;
+  }
+  .projects-project {
+    flex-direction: column;
+    padding: 0px 1rem;
+  }
+  .card {
+    margin-top: 2rem;
+  }
+}
