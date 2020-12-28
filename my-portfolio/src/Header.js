@@ -218,7 +218,7 @@ const Header = () => {
             <h3>
               My next goal is to become<span> Mern Stack Developer🔥🔥</span>. I
               love programming and enjoy doing it. I'm Really dedicated &
-              passionte toward my work ...
+              passionate toward my work ...
             </h3>
             <div className="social">
               <a href="https://www.hackerrank.com/jhakal_surath">

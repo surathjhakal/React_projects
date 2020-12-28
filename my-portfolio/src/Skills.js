@@ -16,35 +16,35 @@ const Skills = () => {
               experience in it...
             </h4>
             <SkillCard
-              title="ReactJs"
-              info="After learning javascript I learned reactjs and I was in love this 
-              language because it makes your life so easy.. & now I have some great experirnce in reactjs.."
-              percent="105%"
-            />
-            <SkillCard
               title="Javascript"
               info="Javascript is a type of language that you can't run away from it if you want to do 
               web development as it makes the page interacting or functioning.I have now too much experience in 
               javascript.."
-              percent="105%"
+              percent="108%"
             />
             <SkillCard
               title="Python"
               info="Python is still my first love as this was the first language I learned and this language never
                makes you feel that you can't learn programming beacuse it's syntax is so simple that anyone can learn it.."
-              percent="102%"
+              percent="104%"
+            />
+            <SkillCard
+              title="ReactJs"
+              info="After learning javascript I learned reactjs and I was in love this 
+              language because it makes your life so easy.. & now I have some great experience in reactjs.."
+              percent="99%"
             />
             <SkillCard
               title="Git & Github"
               info="If you want to become an software developer then you must need to learn this because this makes you 
               keep connected to the communuty. If you have to contribute in any opensource then you must know git and github..."
-              percent="100%"
+              percent="95%"
             />
             <SkillCard
               title="C++"
               info="I learned this programming language because its the fastest language if you want to do competitive coding or
                for learning data structures & algo but in later time I really liked this language.."
-              percent="95%"
+              percent="92%"
             />
             <SkillCard
               title="Data Structures & algorithms"

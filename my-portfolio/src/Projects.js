@@ -34,7 +34,7 @@ const Projects = () => {
             <Project
               img={netflix_image}
               title="Netflix Clone"
-              info="This netflix clone was quite easy but quite challenging too, even in this app i taked help from clever programmer. 
+              info="This netflix clone was easy but quite challenging too, even in this app i taked help from clever programmer. 
               I even learn some new css styles in this project.."
               link="https://github.com/surathjhakal/React_projects/tree/master/netflix-clone"
             />
