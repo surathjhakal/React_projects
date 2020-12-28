@@ -7,9 +7,11 @@ import Education from "./Education";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Footer from "./Footer";
+// import { Switch, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
+    // <BrowserRouter>
     <div className="app">
       <Header />
       <About />
@@ -19,6 +21,7 @@ function App() {
       <Projects />
       <Footer />
     </div>
+    // </BrowserRouter>
   );
 }
 

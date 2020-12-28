@@ -11,6 +11,13 @@ import quiz_image from "./quiz_image.png";
 import weather_image from "./weather_image.png";
 
 const Projects = () => {
+  const goToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <section id="projects-header" className="d-flex align-items-center">
       <div className="container-fluid ">
@@ -73,7 +80,7 @@ const Projects = () => {
             />
           </div>
           <div className="projects-row-button">
-            <button>
+            <button onClick={goToTop}>
               <i className="fas fa-angle-up"></i>
             </button>
           </div>

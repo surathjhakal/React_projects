@@ -1,14 +1,19 @@
 import React from "react";
 import profile_pic from "./profile_pic.jpeg";
 import "./About.css";
+import myResume from "./Resume.pdf";
 
 const About = () => {
+  // const downloadFile = () => {
+  //   window.location.href = "file:///C:/Users/Admin/Downloads/Resume.pdf";
+  // };
+
   return (
     <section id="about-header" className="d-flex align-items-center">
       <div className="container-fluid ">
         <div className="about-row">
           <div className="image">
-            <img src={profile_pic} />
+            <img src={profile_pic} alt="profile_pic" />
           </div>
           <div className="about-info">
             <h1>About Me</h1>
@@ -32,8 +37,11 @@ const About = () => {
                 </h3>
               </div>
               <div className="about-resume">
-                <i className="fas fa-download"></i>
-                <p>Download Resume</p>
+                {/* import MyPDF from '../path/to/file.pdf'; */}
+                <a href={myResume} download="MyResume.pdf">
+                  <i className="fas fa-download"></i>
+                  <p>Download Resume</p>
+                </a>
               </div>
             </div>
           </div>
