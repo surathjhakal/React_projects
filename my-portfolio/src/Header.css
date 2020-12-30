@@ -9,7 +9,7 @@
 #header {
   position: relative;
   height: 810px;
-  min-height: 400px;
+  min-height: 646px;
   width: 100%;
   background: #161415 url(./header-background.jpg) no-repeat top center;
   background-size: cover !important;

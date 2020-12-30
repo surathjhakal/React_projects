@@ -86,7 +86,7 @@ const Header = () => {
         });
       } else if (id === "about") {
         window.scrollTo({
-          top: 590,
+          top: 600,
           behavior: "smooth",
         });
       } else if (id === "education") {

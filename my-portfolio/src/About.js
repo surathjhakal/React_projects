@@ -1,5 +1,5 @@
 import React from "react";
-import profile_pic from "./profile_pic.jpeg";
+import profile_pic from "./profile_pic_new.jpeg";
 import "./About.css";
 import myResume from "./Resume.pdf";
 
@@ -29,9 +29,7 @@ const About = () => {
                 <h3>
                   Surath K. Jhakal,
                   <br />
-                  Mumbai Maharashtra,
-                  <br />
-                  91+ 9136890967,
+                  Mumbai, Maharashtra,
                   <br />
                   jhakal.surath@gmail.com
                 </h3>
