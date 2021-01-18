@@ -1,0 +1,94 @@
+.header {
+  background-color: #111;
+  height: 60px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+}
+
+.header img {
+  display: flex;
+  width: 100px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.header-search {
+  flex: 1;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.header-searchIcon {
+  background-color: #fcb65a;
+  color: black;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-searchIcon:hover {
+  background-color: #f59d2a;
+}
+
+.header-search input {
+  width: 100%;
+  border: none;
+  font-size: 15px;
+}
+
+.header-search input:focus {
+  outline: none;
+}
+
+.header-search:focus-within {
+  box-shadow: 0 0 0 3px #f90;
+}
+
+.header-optionAddress > .header-option {
+  display: flex;
+  flex-direction: column;
+  padding: 9px;
+}
+
+.header-optionLineTwo {
+  font-weight: bold;
+}
+
+.header-navItems {
+  display: flex;
+  padding: 10px;
+}
+
+.header-navItems > .header-option {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.header-optionCart {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+}
+
+.header-cartCount {
+  font-weight: bold;
+  color: #f08804;
+  padding: 4px;
+}
+
+.header a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+}

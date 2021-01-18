@@ -1,0 +1,23 @@
+.home-banner {
+  background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Christmas20/GW/new/Christmas-GW-Hero-PC1x._CB413564947_.jpg");
+  height: 590px;
+  margin-top: 60px;
+  background-size: cover;
+  background-position: center;
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: -300px;
+}
+
+.home-row {
+  display: flex;
+  flex-wrap: wrap;
+}
