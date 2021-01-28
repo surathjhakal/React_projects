@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.main_buttons {
+  margin-top: 0.6rem;
+}
+.counter_buttons {
+  margin-top: 0.2rem;
+  display: flex;
+  flex-direction: column;
+}
+.counter {
+  margin-top: 0.6rem;
+}
