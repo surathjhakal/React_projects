@@ -41,7 +41,7 @@ const Skills = () => {
               percent="95%"
             />
             <SkillCard
-              title="C++"
+              title="Java"
               info="I learned this programming language because its the fastest language if you want to do competitive coding or
                for learning data structures & algo but in later time I really liked this language.."
               percent="92%"
