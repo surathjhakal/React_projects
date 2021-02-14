@@ -216,7 +216,7 @@ const Header = () => {
           <div className="info">
             <h1>I'm Surath Kumar Jhakal.</h1>
             <h3>
-              My next goal is to become<span> Mern Stack Developer🔥🔥</span>. I
+              My next goal is to become<span> Full Stack Developer🔥🔥</span>. I
               love programming and enjoy doing it. I'm really dedicated &
               passionate towards my work ...
             </h3>
