@@ -5,8 +5,6 @@ import "./Product.css";
 function Product(props) {
   const addToCart = () => {
     let cartItem = db.collection("cart-items").doc(props.id);
-    let quantity = db.collection("cart-items").doc(props.id);
-    console.log(quantity);
     cartItem.get().then((doc) => {
       if (doc.exists) {
         cartItem.update({

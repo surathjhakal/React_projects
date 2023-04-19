@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
+// import "./productsData";
 import "./App.css";
 import Cart from "./Cart";
 import db from "./firebase";
@@ -20,7 +21,7 @@ function App() {
       });
       setCartItems(tempCartItems);
     });
-  });
+  }, []);
 
   return (
     <Router>

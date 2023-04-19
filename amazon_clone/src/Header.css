@@ -92,3 +92,15 @@
   color: white;
   text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+  .header-optionAddress {
+    display: none;
+  }
+  .header-search {
+    display: none;
+  }
+  .header-option {
+    display: none !important;
+  }
+}

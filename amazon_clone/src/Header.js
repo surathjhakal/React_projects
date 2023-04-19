@@ -18,7 +18,7 @@ const Header = (props) => {
       <div className="header-logo">
         <Link to="/">
           <img
-            src="https://mikekitko.com/wp-content/uploads/2019/10/amazon-logo-white-300x90.png"
+            src="https://www.thesun.co.uk/wp-content/uploads/2022/02/Amazon-Logo-1024x426-1.png"
             alt="image"
           />
         </Link>

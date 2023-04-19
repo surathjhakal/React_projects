@@ -9,6 +9,7 @@
   margin: 15px;
   padding: 20px;
   min-width: 350px;
+  border: 2px solid lightgray;
 }
 
 .product-info {
@@ -31,11 +32,11 @@
   height: 28px;
   border: 2px solid #a88734;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .product button:hover {
   background-color: #f59d2a;
-  cursor: pointer;
 }
 .product-title {
   font-weight: bold;
@@ -43,4 +44,10 @@
 
 .product-rating {
   display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .product {
+    min-width: fit-content;
+  }
 }

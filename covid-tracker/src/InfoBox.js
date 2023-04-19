@@ -14,7 +14,7 @@ const InfoBox = ({ title, cases, total, onClick, color, active }) => {
           {title}
         </Typography>
         <h2 className="infoBox_cases" style={{ color: color }}>
-          {cases}
+          Today : {cases}
         </h2>
         <Typography className="infoBox_total" color="textSecondary">
           {total} Total

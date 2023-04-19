@@ -18,3 +18,12 @@
   font-size: 28px;
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 600px) {
+  .cart {
+    flex-direction: column;
+  }
+  .cartItems {
+    margin: 0;
+  }
+}

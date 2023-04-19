@@ -29,12 +29,6 @@ const Home = () => {
       </div>
       <div className="home-content">
         <div className="home-row">
-          <TopCardsLineOne />
-        </div>
-        <div className="home-row">
-          <TopCardsLineTwo />
-        </div>
-        <div className="home-row">
           {products.slice(0, 2).map((item) => (
             <Product
               id={item.id}
@@ -57,6 +51,12 @@ const Home = () => {
               image={item.product.image}
             />
           ))}
+        </div>
+        <div className="home-row">
+          <TopCardsLineOne />
+        </div>
+        <div className="home-row">
+          <TopCardsLineTwo />
         </div>
       </div>
     </div>

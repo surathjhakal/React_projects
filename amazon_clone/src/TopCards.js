@@ -24,6 +24,7 @@ const TopCardsLineOne = () => {
           "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Fashion/EVENT/WRS_Dec/GW/BTF/PC/WF-372-232/186-116/3._SY116_CB413571277_.jpg"
         }
         info4={"Fashion jewellery"}
+        key={1}
       />
       <ProductOptions
         title="For a productive and stylish home office"
@@ -31,6 +32,7 @@ const TopCardsLineOne = () => {
         img1={
           "https://images-eu.ssl-images-amazon.com/images/G/31/img20/CEPC/GW/Dashboard/WFH_GW_DC_379x304._SY304_CB417122473_.jpg"
         }
+        key={8}
       />
       <ProductOptions
         title="Top electronic picks for your home"
@@ -52,6 +54,7 @@ const TopCardsLineOne = () => {
           "https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/Desktop_QC_tile_graphic_186x116_3._SY116_CB414480869_.jpg"
         }
         info4={"Refrigerators"}
+        key={2}
       />
       <ProductOptions
         title="Up to 60% off | Kitchen & home essentials"
@@ -73,6 +76,7 @@ const TopCardsLineOne = () => {
           "https://images-eu.ssl-images-amazon.com/images/G/31/img20/kitchen/GW/B-186._SY116_CB416753468_.jpg"
         }
         info4={"Dinnerware"}
+        key={3}
       />
     </>
   );
@@ -100,6 +104,7 @@ const TopCardsLineTwo = () => {
           "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Fashion/EVENT/WRS_Dec/GW/BTF/PC/MF-372-232/186-116/5._SY116_CB413570652_.jpg"
         }
         info4={"Bags & luggage"}
+        key={4}
       />
       <ProductOptions
         title="Home essentials | Amazon Brands & more"
@@ -121,6 +126,7 @@ const TopCardsLineTwo = () => {
           "https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-3_186x116._SY116_CB430773130_.jpg"
         }
         info4={"Smart bulbs & string lights"}
+        key={5}
       />
       <ProductOptions
         title="Upgrade your home with these technologies"
@@ -142,6 +148,7 @@ const TopCardsLineTwo = () => {
           "https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/B01N5KIHWN_186x116._SY116_CB417134288_.jpg"
         }
         info4={"Bestselling furniture"}
+        key={6}
       />
       <ProductOptions
         title="Pay your credit card bills on Amazon"
@@ -149,6 +156,7 @@ const TopCardsLineTwo = () => {
         img1={
           "https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/Boson/Sid/CCBP/DesktopGateway_CategoryCard_379x304_CCBP._SY304_CB413372299_.jpg"
         }
+        key={7}
       />
     </>
   );
